@@ -7,6 +7,8 @@ public class Data {
     private String data4;
     private String data5;
 
+    private String[] strings = new String[5];
+
     public String getData5() {
         return data5;
     }
