@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30791e7-9165-40b2-b959-1c90a810cd4d" name="Changes" comment="first commit adding basic gui and data and service classes">
+    <list default="true" id="c30791e7-9165-40b2-b959-1c90a810cd4d" name="Changes" comment="he">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.java" afterDir="false" />
+    </list>
+    <list id="4abe7098-c722-4ef7-a84a-380cd4c4e64d" name="Changes by Tymon" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +29,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java">
+      <ranges>
+        <range start1="8" end1="8" start2="8" end2="10" changelist="4abe7098-c722-4ef7-a84a-380cd4c4e64d" />
+        <range start1="12" end1="12" start2="14" end2="22" changelist="c30791e7-9165-40b2-b959-1c90a810cd4d" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,6 +57,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "271",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,8 +68,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\PROJEKTY\INTELLIJ\UART_Messenger\src\main\java\org\images" />
       <recent name="C:\Users\user\Desktop\PROJEKTY\INTELLIJ\UART_Messenger\src\main" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.TeamProject.Main" />
+      <module name="UART_Messenger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.TeamProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682063159846</updated>
-      <workItem from="1682063161993" duration="5885000" />
+      <workItem from="1682063161993" duration="18738000" />
     </task>
     <task id="LOCAL-00001" summary="first commit adding basic gui and data and service classes">
       <created>1682069694269</created>
@@ -71,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682069694269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="he">
+      <created>1682070420448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682070420448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit adding basic gui and data and service classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit adding basic gui and data and service classes" />
+    <MESSAGE value="he" />
+    <option name="LAST_COMMIT_MESSAGE" value="he" />
   </component>
 </project>

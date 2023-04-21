@@ -1,73 +1,44 @@
 package org.TeamProject;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.*;
+import java.util.Arrays;
 
-public class UartGui extends JFrame {
+public class UartGui {
+    private JFrame frame = new JFrame();
     private JPanel mainPanel;
-    private JFormattedTextField formattedTextField1;
-    private JFormattedTextField formattedTextField2;
-    private JFormattedTextField formattedTextField3;
-    private JFormattedTextField formattedTextField4;
     private JButton SENDDATAButton;
-    private JFormattedTextField formattedTextField5;
+    private JButton loadDataButton;
+    private JTextField textField1;
+    private JTextField textField2;
+    private JTextField textField3;
+    private JTextField textField4;
+    private JTextField textField5;
 
-
-
+    private JTextField[] textFields = {textField1, textField2, textField3, textField4, textField5};
+    
     public UartGui() {
-        SENDDATAButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        Image icon = Toolkit.getDefaultToolkit().getImage("src/main/java/org/images/image.png");
+        frame.setContentPane(mainPanel);
+        frame.setTitle("UART MESSENGER");
+        frame.setSize(400, 300);
+        frame.setVisible(true);
+        frame.setIconImage(icon);
 
+        frame.setFont(Font.getFont(Font.SANS_SERIF));
+        Data data = new Data();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        SENDDATAButton.addActionListener(e -> {
+            System.out.println("Data sent");
+        });
+
+        loadDataButton.addActionListener(e -> {
+            data.setStrings(Arrays.stream(textFields).map(JTextField::getText).toArray(String[]::new));
+
+            for (String s : data.getStrings()) {
+                System.out.println(s);
             }
         });
-    }
-
-    public JPanel getMainPanel() {
-        return mainPanel;
-    }
-
-    public void setMainPanel(JPanel mainPanel) {
-        this.mainPanel = mainPanel;
-    }
-
-    public JFormattedTextField getFormattedTextField1() {
-        return formattedTextField1;
-    }
-
-    public void setFormattedTextField1(JFormattedTextField formattedTextField1) {
-        this.formattedTextField1 = formattedTextField1;
-    }
-
-    public JFormattedTextField getFormattedTextField2() {
-        return formattedTextField2;
-    }
-
-    public void setFormattedTextField2(JFormattedTextField formattedTextField2) {
-        this.formattedTextField2 = formattedTextField2;
-    }
-
-    public JFormattedTextField getFormattedTextField3() {
-        return formattedTextField3;
-    }
-
-    public void setFormattedTextField3(JFormattedTextField formattedTextField3) {
-        this.formattedTextField3 = formattedTextField3;
-    }
-
-    public JFormattedTextField getFormattedTextField4() {
-        return formattedTextField4;
-    }
-
-    public void setFormattedTextField4(JFormattedTextField formattedTextField4) {
-        this.formattedTextField4 = formattedTextField4;
-    }
-    public JFormattedTextField getFormattedTextField5() {
-        return formattedTextField5;
-    }
-
-    public void setFormattedTextField5(JFormattedTextField formattedTextField5) {
-        this.formattedTextField5 = formattedTextField5;
     }
 }

@@ -11,6 +11,14 @@ public class Data {
         return data5;
     }
 
+    public String[] getStrings() {
+        return strings;
+    }
+
+    public void setStrings(String[] strings) {
+        this.strings = strings;
+    }
+
     public void setData5(String data5) {
         this.data5 = data5;
     }
