@@ -5,6 +5,15 @@ public class Data {
     private String data2;
     private String data3;
     private String data4;
+    private String data5;
+
+    public String getData5() {
+        return data5;
+    }
+
+    public void setData5(String data5) {
+        this.data5 = data5;
+    }
 
     public String getData2() {
         return data2;
