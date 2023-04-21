@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30791e7-9165-40b2-b959-1c90a810cd4d" name="Changes" comment="he">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/images/image.png" afterDir="false" />
+    <list default="true" id="c30791e7-9165-40b2-b959-1c90a810cd4d" name="Changes" comment="fixed gui and receiving data from user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.java" afterDir="false" />
-    </list>
-    <list id="4abe7098-c722-4ef7-a84a-380cd4c4e64d" name="Changes by Tymon" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java">
-      <ranges>
-        <range start1="8" end1="8" start2="8" end2="10" changelist="4abe7098-c722-4ef7-a84a-380cd4c4e64d" />
-        <range start1="12" end1="12" start2="14" end2="22" changelist="c30791e7-9165-40b2-b959-1c90a810cd4d" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682063159846</updated>
-      <workItem from="1682063161993" duration="18738000" />
+      <workItem from="1682063161993" duration="21725000" />
     </task>
     <task id="LOCAL-00001" summary="first commit adding basic gui and data and service classes">
       <created>1682069694269</created>
@@ -116,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682070420448</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed gui and receiving data from user">
+      <created>1682084169116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682084169116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes by Tymon">
+      <created>1682084188025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682084188025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit adding basic gui and data and service classes" />
     <MESSAGE value="he" />
-    <option name="LAST_COMMIT_MESSAGE" value="he" />
+    <MESSAGE value="fixed gui and receiving data from user" />
+    <MESSAGE value="Changes by Tymon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Tymon" />
   </component>
 </project>
