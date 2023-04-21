@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30791e7-9165-40b2-b959-1c90a810cd4d" name="Changes" comment="fixed gui and receiving data from user">
+    <list default="true" id="c30791e7-9165-40b2-b959-1c90a810cd4d" name="Changes" comment="recreated all gui after new guidelines">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/TeamProject/UartGui.form" afterDir="false" />
@@ -87,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682063159846</updated>
-      <workItem from="1682063161993" duration="21725000" />
+      <workItem from="1682063161993" duration="24663000" />
     </task>
     <task id="LOCAL-00001" summary="first commit adding basic gui and data and service classes">
       <created>1682069694269</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682084188025</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="recreated all gui after new guidelines">
+      <created>1682100372653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682100372654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +135,7 @@
     <MESSAGE value="he" />
     <MESSAGE value="fixed gui and receiving data from user" />
     <MESSAGE value="Changes by Tymon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Tymon" />
+    <MESSAGE value="recreated all gui after new guidelines" />
+    <option name="LAST_COMMIT_MESSAGE" value="recreated all gui after new guidelines" />
   </component>
 </project>

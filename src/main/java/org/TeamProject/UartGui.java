@@ -2,22 +2,18 @@ package org.TeamProject;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Arrays;
 
 public class UartGui {
     private JFrame frame = new JFrame();
     private JPanel mainPanel;
-    private JButton SENDDATAButton;
+    private JButton sendDataButton;
     private JButton loadDataButton;
-    private JTextField textField1;
-    private JComboBox valueBox;
-    private JComboBox comboBox1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField4;
-    private JTextField textField5;
+    private JTextField valueField;
+    private JComboBox idBox;
+    private JComboBox speedBox;
 
-    private JTextField[] textFields = {textField1, textField2, textField3, textField4, textField5};
+
+
 
     public UartGui() {
         Image icon = Toolkit.getDefaultToolkit().getImage("src/main/java/org/images/image.png");
@@ -31,14 +27,16 @@ public class UartGui {
 
 
 
-        SENDDATAButton.addActionListener(e -> {
+        sendDataButton.addActionListener(e -> {
             System.out.println("Data sent");
         });
 
         loadDataButton.addActionListener(e -> {
-
+            Data data=new Data(idBox.getSelectedItem().toString(),speedBox.getSelectedItem().toString(),valueField.getText());
+            System.out.println(data.getId()+" "+data.getBaudRate()+" "+ data.getValue());
 
 
         });
     }
+
 }
