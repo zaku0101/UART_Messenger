@@ -3,6 +3,7 @@ package org.TeamProject;
 
 public class Main {
     public static void main(String[] args) {
-    UartGui gui =new UartGui();
+        System.out.println("Test commit");
+        UartGui gui = new UartGui();
     }
 }
